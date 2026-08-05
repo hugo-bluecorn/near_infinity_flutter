@@ -11,6 +11,17 @@ required reading; everything operative is inline here). The object is a **plan a
 on an unverified analysis** — the method's defining trigger. Your product is **gaps + corrections
 to the plan**, never fixes and never seeds.
 
+## Run this in a session that did not author the plan
+
+**If this session wrote or revised the plan, STOP and say so** — ask the user to invoke
+`/porting-bfb` from a fresh session instead. An author auditing its own document grades rather
+than attacks: it holds the rejected alternatives, the deliberate omissions and the reasons for
+each, so every gap arrives with a rationalisation already attached. This binds the **orchestrator**,
+not only the subagents, because two orchestrator-owned steps cannot survive it — **sealing
+omission controls** (establishing what the plan fails to mention) and **judging a sweep soft
+enough to re-fire**. Nothing is lost by starting cold: the plan, the contract and the canon are
+all committed artifacts, which is why this program insists on them.
+
 ## Inputs — verify before anything else
 
 1. **The plan:** the argument path, else `planning/first-pass-conversion-plan.md`. If it does not
