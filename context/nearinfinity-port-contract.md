@@ -25,6 +25,7 @@ before seeds are cut.
 | `flutter-ai-rules.md` | style, quality, state-mgmt defaults, theming, lints | flutter/flutter `docs/rules/rules_10k.md` @ store `36b35dd79ff` (2026-07-16) |
 | `effective-dart-style.md` | Dart naming/ordering/formatting | dart-lang/site-www @ store `fccd24a0` (2026-06-20) |
 | `mvvm-architecture-record.md` | the layering: View/ViewModel/Repository/Service rules | docs.flutter.dev/app-architecture/guide, fetched 2026-08-05 |
+| `java-semantics-notes.md` | the Java-side instrument — the platform-contract citation ledger the faithful half hinges on | seeded 2026-08-05; entries verified at first touch (JLS/Javadoc cites) |
 | this file | project decisions + deviations | — |
 
 Oracle-leg source pins (outside this folder, in the ai-context store): `rrousselGit/riverpod` @
