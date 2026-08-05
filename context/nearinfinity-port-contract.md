@@ -65,6 +65,19 @@ The faithful-vs-rewrite question is **per-layer, not app-global**:
 No other deviations are declared. A deviation discovered in code that is not recorded here is a
 defect.
 
+## Licensing (settled 2026-08-05)
+
+Upstream Near Infinity is **LGPL-2.1**. A port is a translation and therefore a derivative work,
+so **this project is LGPL-2.1** (`LICENSE`, verbatim FSF text). Consequences that bind the work:
+
+- Ported code carries the license; when source files start landing they take the standard LGPL
+  per-file notice, naming this project and pointing at `LICENSE`.
+- Any dependency added to the app must be license-compatible with LGPL-2.1. **Apache-2.0 is not**
+  — its patent-termination clause conflicts with GPLv2-era licenses — so an Apache-2.0 package
+  cannot be linked into the shipped application. Check a package's license before adding it.
+- The pinned third-party documentation under `context/` stays under its own upstream terms and is
+  not relicensed by this file.
+
 ## Scope
 
 **Deliberately not stated here.** The first-pass conversion plan (plan mode) must state scope —

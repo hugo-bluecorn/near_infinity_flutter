@@ -60,13 +60,20 @@ The methodology is not specific to this project; it is one instance of a general
 ## Upstream and licensing
 
 The Java source is used **read-only**; nothing in this project modifies it. Upstream
-[Near Infinity](https://github.com/Argent77/NearInfinity) is licensed under the **GNU Lesser
-General Public License, version 2.1**.
+[Near Infinity](https://github.com/Argent77/NearInfinity) — copyright (C) 2001 Jon Olav Hauglid
+and contributors — is licensed under the **GNU Lesser General Public License, version 2.1**.
 
-A port is a translation, and a translation is a derivative work — so **ported application code
-inherits LGPL-2.1** as it lands. The repository's own licensing is being finalised before the
-first ported code is committed; until then this repository contains only original planning
-material and third-party documentation reproduced with attribution in each file's header.
+A port is a translation, and a translation is a derivative work, so **this project is licensed
+under LGPL-2.1 as well**. The full text is in [`LICENSE`](LICENSE).
+
+Two clarifications, because a blanket claim would be inaccurate:
+
+- The pinned third-party documentation under `context/` is **not** covered by this project's
+  license. Those files are reproductions of Flutter and Dart documentation, carry their upstream
+  provenance in each file's header, and remain under their own terms.
+- Everything else here — the contract, the semantics ledger, the audit skill, this README — is
+  original work of this project, offered under the same LGPL-2.1 for simplicity and to keep the
+  repository under a single license as ported code arrives.
 
 ## Development
 
