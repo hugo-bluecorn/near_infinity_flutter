@@ -91,6 +91,18 @@ so **this project is LGPL-2.1** (`LICENSE`, verbatim FSF text). Consequences tha
 - The pinned third-party documentation under `context/` stays under its own upstream terms and is
   not relicensed by this file.
 
+## Platform targets (ruled 2026-08-05)
+
+**Linux desktop is the target.** It is what the port is designed, built and verified against, and
+the only platform any acceptance criterion refers to.
+
+The scaffold nonetheless carries **all six Flutter platform directories** (android, ios, linux,
+macos, web, windows) — retained deliberately, not by oversight. They cost almost nothing, and
+keeping them avoids a disruptive regeneration if another platform is ever wanted. Until such a
+ruling: **unsupported and untested** — no platform-specific work, no CI, no claim that the app
+runs anywhere but Linux. Treat a platform-specific defect on a non-target platform as out of
+scope rather than as a bug.
+
 ## Scope
 
 **Deliberately not stated here.** The first-pass conversion plan (plan mode) must state scope —
