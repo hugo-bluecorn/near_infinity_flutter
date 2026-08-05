@@ -64,4 +64,6 @@ work against the pinned Riverpod 3.3.2 sources + official docs**, and must answe
 2. How Views bind (watch/listen) while keeping the 1:1 view–viewmodel rule.
 3. How Repositories and Services are provided (the DI graph replacing manual constructor injection —
    itself a declared deviation from the rules file's manual-DI bullet).
-4. Annotation/codegen style vs manual notifiers — OPEN in the contract doc until ruled.
+4. *(ruled 2026-08-05: manual, NO codegen — see the contract)* — so the mapping in 1–3 is
+   established against Riverpod's manual declaration style, never the annotation/generator
+   toolchain.

@@ -57,8 +57,9 @@ The faithful-vs-rewrite question is **per-layer, not app-global**:
 1. **State management: Riverpod 3.x** (Hugo, explicit request, 2026-08-05). This exercises the
    rules file's own clause — *"do NOT use Riverpod, Bloc, or GetX **unless explicitly
    requested**"* — and supersedes its native-first default and its manual-constructor-DI bullet
-   (the provider graph is the DI). **OPEN sub-decision:** annotation/codegen vs manual notifiers —
-   to be established at the oracle leg from the Riverpod 3.x docs, then ruled and recorded here.
+   (the provider graph is the DI). **Sub-decision ruled (Hugo, 2026-08-05): NO code generation** —
+   manual notifier/provider declarations only; the annotation/`riverpod_generator`/`build_runner`
+   toolchain is excluded. The oracle leg establishes the mapping against the manual style.
 
 No other deviations are declared. A deviation discovered in code that is not recorded here is a
 defect.
