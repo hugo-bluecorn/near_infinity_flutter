@@ -27,6 +27,13 @@ plan disagrees with `context/`, the disagreement is either a recorded deviation 
 
 ## Current stage
 
-Pre-plan. The context package exists; the porting-BFB skill is being built (build order: method
-parameterisation ✅ → porting instance → seed-writer). The Flutter app is **not created yet** — the
-first-pass plan decides its structure; do not `flutter create` ahead of it.
+Pre-plan. The context package exists and **`/porting-bfb` is live** (build order: method
+parameterisation ✅ → porting instance ✅ → seed-writer, built last). The working sequence:
+
+1. Plan mode → the first-pass conversion plan → save it to
+   `planning/first-pass-conversion-plan.md` (the BFB audits a committed artifact, not a chat).
+2. `/porting-bfb` — the audit; output lands in `audit/` as a homed register of gaps + corrections.
+3. Apply corrections via plan revision; seeds are then cut **one at a time** (seed-writer skill).
+
+The Flutter app is **not created yet** — the first-pass plan decides its structure; do not
+`flutter create` ahead of it.
