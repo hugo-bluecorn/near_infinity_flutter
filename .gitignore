@@ -1,0 +1,25 @@
+# Dart / Flutter build output
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# fvm — the pinned SDK symlink, not the config
+.fvm/flutter_sdk
+
+# Linux desktop ephemeral build files
+linux/flutter/ephemeral/
+
+# Editors
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# OS
+.DS_Store
+*.log
+
+# NOTE: pubspec.lock is deliberately NOT ignored — this is an application, and
+# applications commit their lockfile so builds are reproducible.

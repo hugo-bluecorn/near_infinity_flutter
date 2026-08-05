@@ -22,6 +22,10 @@ plan disagrees with `context/`, the disagreement is either a recorded deviation 
   **Riverpod 3.x** (a declared deviation — see the contract). Development proceeds **model → UI**.
 - **Faithful half = round-trip byte-identity.** Any change to format read/write code carries a
   round-trip test against real game data fixtures; byte-exact, over the format's domain.
+- **Every source file carries the LGPL header** — the exact template is in the contract's
+  Licensing section; ported files keep upstream's copyright alongside the port's. Check a new
+  dependency's license before adding it: LGPL-2.1 compatibility is required, and Apache-2.0 is
+  not compatible.
 - **No multi-role machinery here.** This project runs from the main session with the tdd-workflow
   plugin (`/tdd-plan`, `/tdd-implement`); the porting-BFB and seed-writer are skills in this repo.
 
