@@ -105,10 +105,15 @@ scope rather than as a bug.
 
 ## Scope
 
-**Deliberately not stated here.** The first-pass conversion plan (plan mode) must state scope —
-whole-app vs subset, which resource types, which tools — and the porting-BFB audit attacks that
-statement (assertions *and* omissions). Recording scope in this contract before the plan exists
-would pre-empt exactly the check the program exists to run.
+**The whole application** (ruled 2026-08-05). The port targets Near Infinity in full — every
+resource type, every tool, every workflow — not a bounded slice.
+
+This ruling fixes the *denominator*; it does not supply the list. The first-pass plan still owns,
+and the audit therefore still attacks: the **enumeration** (which resource types, tools and
+subsystems actually exist), the **mapping** of each to its MVVM slot, and the **phasing**. A plan
+that enumerates less than the application contains is precisely the omission this program hunts —
+and with whole-app fixed as the target, that gap is measurable against the source rather than a
+matter of opinion.
 
 ## The pipeline
 
