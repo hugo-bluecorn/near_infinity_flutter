@@ -61,6 +61,12 @@ app.*.map.json
 .fvm/flutter_sdk
 .fvm/versions
 
+# reference/ — local read-only third-party reference material (see reference/README.md
+# for provenance and refetch instructions). Carries no license grant for redistribution,
+# so the content stays out of the repository; only the README is tracked.
+/reference/*
+!/reference/README.md
+
 # Notes:
 # - pubspec.lock is deliberately NOT ignored: this is an application, and
 #   applications commit their lockfile so builds are reproducible.

@@ -12,6 +12,8 @@ first, audit the plan, then seeds.
 layer mapping, declared deviations, pipeline). The `context/` folder is the pinned target-side
 canon: the Flutter AI rules, Effective Dart style, and the MVVM layering record. Where code or a
 plan disagrees with `context/`, the disagreement is either a recorded deviation or a defect.
+`reference/README.md` documents local read-only reference snapshots (IESDP format docs — content
+uncommitted, **informative only**: where IESDP and the Java source disagree, the Java source wins).
 
 ## Hard rules
 
