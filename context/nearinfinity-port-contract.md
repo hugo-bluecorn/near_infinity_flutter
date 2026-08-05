@@ -70,8 +70,21 @@ defect.
 Upstream Near Infinity is **LGPL-2.1**. A port is a translation and therefore a derivative work,
 so **this project is LGPL-2.1** (`LICENSE`, verbatim FSF text). Consequences that bind the work:
 
-- Ported code carries the license; when source files start landing they take the standard LGPL
-  per-file notice, naming this project and pointing at `LICENSE`.
+- **Copyright attribution for this project's work: `hugo-bluecorn`** (ruled 2026-08-05).
+- Ported source files carry **both** copyrights — LGPL-2.1 §1 requires a derivative work to keep
+  the original notices intact, and the port adds its own. Use this header verbatim on every
+  ported file:
+
+  ```dart
+  // near_infinity_flutter — a Flutter port of Near Infinity
+  // Copyright (C) 2001 Jon Olav Hauglid and contributors (upstream, LGPL-2.1)
+  // Copyright (C) 2026 hugo-bluecorn (port)
+  // See LICENSE for license information
+  ```
+
+  Files that are **original** to this project — no upstream derivation — carry only the second
+  copyright line. Judging which is which is a per-file call the implementer makes and the
+  reviewer checks; when in doubt, include both.
 - Any dependency added to the app must be license-compatible with LGPL-2.1. **Apache-2.0 is not**
   — its patent-termination clause conflicts with GPLv2-era licenses — so an Apache-2.0 package
   cannot be linked into the shipped application. Check a package's license before adding it.

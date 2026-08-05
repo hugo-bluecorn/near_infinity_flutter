@@ -64,7 +64,8 @@ The Java source is used **read-only**; nothing in this project modifies it. Upst
 and contributors — is licensed under the **GNU Lesser General Public License, version 2.1**.
 
 A port is a translation, and a translation is a derivative work, so **this project is licensed
-under LGPL-2.1 as well**. The full text is in [`LICENSE`](LICENSE).
+under LGPL-2.1 as well** — copyright (C) 2026 hugo-bluecorn. The full text is in
+[`LICENSE`](LICENSE).
 
 Two clarifications, because a blanket claim would be inaccurate:
 
