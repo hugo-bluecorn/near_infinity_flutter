@@ -39,5 +39,17 @@ parameterisation ✅ → porting instance ✅ → seed-writer, built last). The 
 2. `/porting-bfb` — the audit; output lands in `audit/` as a homed register of gaps + corrections.
 3. Apply corrections via plan revision; seeds are then cut **one at a time** (seed-writer skill).
 
-The Flutter app is **not created yet** — the first-pass plan decides its structure; do not
-`flutter create` ahead of it.
+**The app scaffold exists** (`flutter create -e`, empty app, SDK pinned to 3.44.8 in `.fvmrc`) —
+platform plumbing only. **`lib/` is still the plan's to decide:** the MVVM folder layout, the
+Riverpod provider graph, and every feature boundary come from the first-pass plan and its audit,
+not from improvisation on top of the scaffold. `lib/main.dart` is Flutter's empty-app stub and is
+expected to be replaced.
+
+## Build & run
+
+```bash
+fvm flutter pub get
+fvm flutter run -d linux      # the target platform
+fvm flutter analyze
+fvm flutter test              # no tests yet — the plan builds the harness
+```
